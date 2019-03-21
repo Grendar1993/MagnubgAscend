@@ -1,0 +1,8 @@
+prefix=/home/grendar/catkin_ws/install
+
+Name: drone_tf
+Description: Description of drone_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/grendar/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/grendar/catkin_ws/install
+
+Name: map_merge_3d
+Description: Description of map_merge_3d
+Version: 0.1.1
+Cflags: 
+Libs: -L/home/grendar/catkin_ws/install/lib 
+Requires: 

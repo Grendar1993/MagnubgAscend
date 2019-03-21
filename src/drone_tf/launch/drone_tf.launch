@@ -1,0 +1,5 @@
+<launch>
+   <node pkg="drone_tf" type="dronestatic" name="Drone_to_camera" args="camera1 2 2 0 0.2 0.3 0.5 drone1" output="screen"/>
+   <node pkg="drone_tf" type="dronestatic" name="Drone_to_dronemap" args="dronemap 1 0 1 2 1 -1 drone1" output="screen"/>
+   <node pkg="drone_tf" type="dronestatic" name="dronemap_to_world" args="map 0 0.5 0.5 1 -2 1 dronemap" output="screen"/>
+</launch>

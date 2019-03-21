@@ -1,0 +1,2 @@
+drone_description:drone_tf:globalmap:map-merge/map_merge_3d
+-DCATKIN_DEVEL_PREFIX=/home/grendar/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/grendar/catkin_ws/install -G Unix Makefiles

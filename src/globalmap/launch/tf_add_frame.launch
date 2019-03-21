@@ -1,0 +1,7 @@
+ <launch>
+    <node name="tf2_broadcaster" pkg="globalmap" type="tf2_broadcaster.py" respawn="true" output="screen" />
+
+
+  <!--  <node pkg="rosbag" type="play" name="player1" output="screen" args="-l /remapbag/pointbag_robot2.bag"/>
+        <node pkg="rosbag" type="play" name="player2" output="screen" args="-l /remapbag/pointbag_robot1.bag"/> -->
+ </launch>

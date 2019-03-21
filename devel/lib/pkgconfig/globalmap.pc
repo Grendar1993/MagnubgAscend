@@ -1,0 +1,8 @@
+prefix=/home/grendar/catkin_ws/devel
+
+Name: globalmap
+Description: Description of globalmap
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/grendar/catkin_ws/devel/lib 
+Requires: 
