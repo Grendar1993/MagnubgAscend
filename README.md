@@ -9,5 +9,5 @@
 - The package drone_tf har a node called dronestatic.cpp
   - There is also a launch file, called "drone_tf.launch"
   
-  ######################################################
+#
 - The package/code for publishing zed pointclouds are heavely based on https://github.com/stereolabs/zed-pcl, so if there are errors of questings to what is happening that is the place to go.
