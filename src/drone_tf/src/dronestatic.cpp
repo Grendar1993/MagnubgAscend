@@ -13,7 +13,7 @@ int main(int argc, char **argv)
   ros::init(argc,argv, "my_drone_tf_static");
   if(argc != 9)
   {
-    std::cout << "argument number:" << argc << std::endl;
+    std::cout << "Number of params chosen:" << argc << std::endl;
     ROS_ERROR("Invalid number of parameters\nusage: dronestatic child_frame_name x y z roll pitch yaw frame_id");
     //return -1;
   }
@@ -24,7 +24,7 @@ int main(int argc, char **argv)
 
   static_transformStamped.header.stamp = ros::Time::now();
   static_transformStamped.header.frame_id = binding_frame;
-  std::cout << "Argument 9: " << atof(argv[8]) << std::endl;
+  std::cout << "Frame_id: " << binding_frame.c_str() << std::endl;
   static_transformStamped.child_frame_id = static_turtle_name;
   static_transformStamped.transform.translation.x = atof(argv[2]);
   static_transformStamped.transform.translation.y = atof(argv[3]);

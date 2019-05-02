@@ -1,2 +1,2 @@
-drone_description:drone_tf:globalmap:map-merge/map_merge_3d
+control_simulator/src/control_simulator:control_simulator/src/px4:control_simulator/src/sitl_gazebo:drone_description:drone_tf:globalmap:map-merge/map_merge_3d
 -DCATKIN_DEVEL_PREFIX=/home/grendar/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/grendar/catkin_ws/install -G Unix Makefiles
